@@ -46,14 +46,17 @@ span {
     color: #434455;
     font-style: normal;
 }
-.link-address a:hover,
-.link-address a:focus {
+.link-address:hover,
+.link-address:focus {
     color: #404bbf;
+}
+address {
+    font-style: normal;
 }
 .banner {
     background: #2e2f42;
 }
-h1{
+.banner-title {
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     line-height: 1.07;
@@ -74,6 +77,14 @@ h1{
 .order-button:focus  {
 background-color: #404bbf;
 }
+.advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
 .name-item {
     font-weight: 500;
     font-size: 20px;
@@ -85,29 +96,52 @@ background-color: #404bbf;
     color: #434455;
     font-size: 16px;
 }
-.porfolio {
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1px;
+  }
+.team-title{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-
 }
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
+.team-cards {
+    background-color: #f4f4fd;
+}
 .team-info {
-    background: #f4f4fd;
+    background: #FFFFFF;
 }
 .item-card {
     background-color: #FFFFFF;
+}
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.title-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;    
+}
+.describe {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
 .page-footer {
     background: #2e2f42;    
